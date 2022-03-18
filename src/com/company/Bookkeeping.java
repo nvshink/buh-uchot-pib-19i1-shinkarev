@@ -23,7 +23,8 @@ public class Bookkeeping {
                 case "exit":
                     exitMark = true;
                     break;
-                default: System.out.println("Incorrect action");
+                default:
+                    System.out.println("Incorrect action");
             }
         } while (!exitMark);
     }
